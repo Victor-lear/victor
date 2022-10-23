@@ -1,0 +1,4 @@
+ params = {
+            'message': request.values['username']
+        }
+        #res = requests.get('http://localhost:5000/send_all', params=params)
